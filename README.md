@@ -7,4 +7,4 @@ This repository contains my LeetCode practice problems.
 - Python
 
 ## 🎯 Goal
-Solve 1 problem daily 💪
+To solve more than 400 questions 💪
