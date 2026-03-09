@@ -1,0 +1,11 @@
+class Solution(object):
+    def minimumTotal(self, triangle):
+        """
+        :type triangle: List[List[int]]
+        :rtype: int
+        """
+        a = triangle[-1]
+        for i in range(len(triangle)-2,-1,-1): #Loop for going backwards
+            for j in range(len(triangle[i])):  #Loop for storing values of them
+                a[j] = triangle[i][j] + min(a[j+1], a[j])
+        return a[0]                            #For returning
