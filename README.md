@@ -3,6 +3,7 @@
 This repository contains my LeetCode practice problems.
 
 ## 👨‍💻 Language
+- C++
 - C
 - Python
 
